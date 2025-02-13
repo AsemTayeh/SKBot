@@ -6,13 +6,15 @@ SKB-4 is a GPT-powered Discord bot with **channel-specific context management** 
 ## **Features Overview**  
 
 - **Per-Channel Message History**:  
-  - Stores the last **20 messages per channel** using a global array.              ![image](https://github.com/user-attachments/assets/c755156b-172c-453d-bde8-c9868e7425c6)
-
-  - Automatically removes the oldest message when the history limit is reached.  
+  - Stores the last **20 messages per channel** using a global array.             
+  - Automatically removes the oldest message when the history limit is reached.
+    ![image](https://github.com/user-attachments/assets/c755156b-172c-453d-bde8-c9868e7425c6)
 
 - **Weather API Integration**:  
-  - Uses an external weather API to provide **live weather data** (temperature, time zone) when requested.  
-  - Implements error handling to provide fallback responses when the API fails.  
+  - Uses an external weather API to provide **live weather data** (temperature, time zone) when requested for a specific city.  
+  - Implements error handling to provide fallback responses when the API fails.
+    ![image](https://github.com/user-attachments/assets/f8bc71f2-8212-4439-bb80-65dac3c15f25)
+
 
 - **GPT-Based Responses**:  
   - Integrates with **OpenAI’s GPT-4o-mini** model to generate replies based on message context.  
@@ -25,6 +27,8 @@ SKB-4 is a GPT-powered Discord bot with **channel-specific context management** 
 - **Token Usage Optimization**:  
   - Requires **`@SKB-4` mention** to trigger responses, preventing unnecessary token consumption.  
   - Ignores messages from other bots.
+    ![image](https://github.com/user-attachments/assets/ad80b401-5eb3-4f74-a616-8f54d6566f20)
+
 
 ## How to install:
 1. Install Node on your computer (Version 20.18.0) on: https://nodejs.org/en/download/package-manager
