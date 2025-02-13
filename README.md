@@ -6,7 +6,8 @@ SKB-4 is a GPT-powered Discord bot with **channel-specific context management** 
 ## **Features Overview**  
 
 - **Per-Channel Message History**:  
-  - Stores the last **20 messages per channel** using a global array.  
+  - Stores the last **20 messages per channel** using a global array.              ![image](https://github.com/user-attachments/assets/c755156b-172c-453d-bde8-c9868e7425c6)
+
   - Automatically removes the oldest message when the history limit is reached.  
 
 - **Weather API Integration**:  
