@@ -27,6 +27,7 @@ SKB-4 is a GPT-powered Discord bot with **channel-specific context management** 
 - **Token Usage Optimization**:  
   - Requires **`@SKB-4` mention** to trigger responses, preventing unnecessary token consumption.  
   - Ignores messages from other bots.
+    
     ![image](https://github.com/user-attachments/assets/ad80b401-5eb3-4f74-a616-8f54d6566f20)
 
 
